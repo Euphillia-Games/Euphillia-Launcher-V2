@@ -284,6 +284,7 @@
     text-align: center;
     border-radius: 15px;
     padding: 0 0.5rem;
+    align-content: center;
     cursor: pointer;
 }
 
@@ -338,7 +339,7 @@
 .instances-tab {
     position: relative;
     background: var(--background);
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 1rem 3rem;
 }
 
@@ -348,11 +349,29 @@
     top: 10px;
     right: 10px;
     background: var(--shadow);
+    background-color: transparent;
     height: 30px;
     width: 30px;
-    border-radius: 10px;
+    border-radius: 9px;
     align-items: center;
     justify-content: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.close-popup:hover {
+    position: absolute;
+    display: flex;
+    top: 10px;
+    right: 10px;
+    background: var(--shadow);
+    background-color: #e21212;
+    height: 30px;
+    width: 30px;
+    border-radius: 9px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .instances-tab p {
