@@ -268,21 +268,20 @@
     font-size: 2rem;
     font-weight: bolder;
     padding: 0 1.5rem;
-    pointer-events: none;
+    cursor: crosshair;
 }
 
 .instance-select {
     display: flex;
     align-items: center;
     position: absolute;
-    right: -3;
-    top: -2;
+    right: 0;
     color: var(--element-color);
     font-size: 1rem;
-    height: calc(100% - 1px);
+    height: calc(80% - 1px);
     border: solid 3px var(--element-color);
     text-align: center;
-    border-radius: 15px;
+    border-radius: 100px;
     padding: 0 0.5rem;
     align-content: center;
     cursor: pointer;
@@ -344,6 +343,7 @@
 }
 
 .close-popup {
+    transition: all 0.3s cubic-bezier(0.12, 0, 0.39, 0);
     position: absolute;
     display: flex;
     top: 10px;
@@ -360,12 +360,13 @@
 }
 
 .close-popup:hover {
+    transition: all 0.3s cubic-bezier(0.12, 0, 0.39, 0);
     position: absolute;
     display: flex;
     top: 10px;
     right: 10px;
     background: var(--shadow);
-    background-color: #e21212;
+    background-color: #950a0a;
     height: 30px;
     width: 30px;
     border-radius: 9px;
