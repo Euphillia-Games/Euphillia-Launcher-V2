@@ -5,9 +5,9 @@
     "description": "Launcher Minecraft pour le serveur moddé Euphillia",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
-        "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "name": "Euphillia Games",
+        "email": "contact@euphillia.fr",
+        "url": "https://euphillia.fr"
     },
     "url": "https://launchdata-er896.euphillia.fr/",
     "scripts": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/Euphillia-Games/Euphillia-Launcher-V2.git"
     }
 }

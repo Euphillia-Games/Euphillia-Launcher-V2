@@ -188,8 +188,8 @@
     width: 90px;
     height: 90px;
     margin-bottom: 1rem;
-    border-radius: 10px;
-    font-size: 2rem;
+    border-radius: 100px;
+    font-size: 1rem;
     cursor: pointer;
     align-items: center;
     justify-content: center;
@@ -198,8 +198,8 @@
 .social-block .icon-social {
     pointer-events: none;
     background-repeat: no-repeat;
-    height: 55%;
-    width: 55%;
+    height: 45%;
+    width: 45%;
     filter: var(--svg-color);
 }
 

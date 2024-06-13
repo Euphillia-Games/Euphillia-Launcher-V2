@@ -34,7 +34,7 @@ async function setBackground(theme) {
         let Background = backgrounds[Math.floor(Math.random() * backgrounds.length)];
         background = `linear-gradient(#00000080, #00000080), url(./assets/images/background/${theme ? 'dark' : 'light'}/${Background})`;
     }
-    body.style.backgroundImage = background ? background : theme ? '#000' : '#fff';
+    body.style.backgroundImage = background ? background : theme ? '#000' : '#000';
     body.style.backgroundSize = 'cover';
 }
 
@@ -62,7 +62,7 @@ async function addAccount(data) {
             <div class="profile-uuid">${data.uuid}</div>
         </div>
         <div class="delete-profile" id="${data.ID}">
-            <div class="icon-account-delete delete-profile-icon"></div>
+            <div class="material-symbols-outlined delete-profile-icon">person_remove</div>
         </div>
     `
     return document.querySelector('.accounts-list').appendChild(div);
