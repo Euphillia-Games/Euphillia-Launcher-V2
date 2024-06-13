@@ -1,6 +1,6 @@
 <p align="center"><img src="../src/assets/images/logo_long.png" alt="icon-launcher"></p>
 
-<h1 align="center">CraftLaunch</h1>
+<h1 align="center">Euphillia Launcher</h1>
 
 [<p align="center">]()
 ![GitHub all releases](https://img.shields.io/github/downloads/luuxis/Selvania-Launcher/total?style=for-the-badge)
@@ -10,13 +10,6 @@
 ![GitHub forks](https://img.shields.io/github/forks/luuxis/Selvania-Launcher?style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/luuxis/Selvania-Launcher?style=for-the-badge)
 
----
-### **<ins><p align="center">Conditions d'utilisation:</p>**
-- Pour utiliser le code vous devez faire un fork du projet.
-- Pour utiliser le code votre code doit tout le temps être public.
-- Pour utiliser le code toute mention originale de la licence doit être gardé.
-- Pour utiliser le code vous devez garder la licence originale.
----
 
 ### **<ins><p align="center">Fonctionnalitées du launcher :</p>**
 
@@ -66,9 +59,9 @@ Si vous téléchargez à partir des Releases, sélectionnez le programme d'insta
 
  Plateforme | Fichier |
 | -------- | ---- |
-| Windows x64 | `Selvania-Launcher-win-x64.exe ` |
-| macOS x64 | `Selvania-Launcher-mac-x64.dmg` |
-| macOS arm64 | `Selvania-Launcher-mac-arm64.dmg` |
-| Linux x64 | `Selvania-Launcher-linux-x86_64.AppImage` |
+| Windows x64 | `Euphillia-Launcher-win-x64.exe ` |
+| macOS x64 | `Euphillia-Launcher-mac-x64.dmg` |
+| macOS arm64 | `Euphillia-Launcher-mac-arm64.dmg` |
+| Linux x64 | `Euphillia-Launcher-linux-x86_64.AppImage` |
 
 ---
