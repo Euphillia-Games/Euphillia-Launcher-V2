@@ -6,7 +6,7 @@
 .nav-settings {
     width: 20%;
     height: 100%;
-    background: var(--background);
+    background: var(--playbutton-color);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -27,7 +27,7 @@
 }
 
 .nav-box #save {
-    border: solid 4px var(--background-element);
+    border: solid 4px #ffffff;
     margin: 3rem;
 }
 
@@ -36,7 +36,7 @@
     font-size: 50%;
     border: solid 4px var(--element-color);
     padding: 5px 10px;
-    border-radius: 10px;
+    border-radius: 200px;
     width: 70%;
     text-align: center;
     margin: 0.5rem 0;
@@ -63,7 +63,7 @@
 }
 
 .settings-elements-box {
-    background: var(--background-element);
+    background: var(--playbutton-color);
     width: 80%;
     border-radius: 10px;
     padding: 1.5rem 2rem;
@@ -89,7 +89,7 @@
     padding: 0.5rem 2rem;
     border-radius: 2rem;
     text-align: center;
-    background: var(--background-transparent);
+    background: var(--playbutton-color);
     color: var(--color);
 }
 
@@ -122,8 +122,8 @@
 }
 
 .account {
-    background: var(--background-element);
-    border: solid 4px var(--background-element);
+    background: var(--playbutton-color);
+    border: solid 4px var(--playbutton-color);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -289,9 +289,9 @@
 }
 
 .java-path-input-text {
-    background: var(--shadow);
+    background: var(--color);
     border: none;
-    color: var(--color);
+    color: var(--playbutton-color);
     padding: 0.5rem 1rem;
     border-radius: 15px;
     width: 50%;
@@ -325,9 +325,9 @@
 }
 
 .input-resolution {
-    background: var(--shadow);
+    background: var(--color);
     border: none;
-    color: var(--color);
+    color: var(--playbutton-color);
     padding: 0.5rem 1rem;
     border-radius: 15px;
     text-align: center;
@@ -358,9 +358,9 @@
  ******************************************************************************/
 
 .input-max-files {
-    background: var(--shadow);
+    background: var(--color);
     border: none;
-    color: var(--color);
+    color: var(--playbutton-color);
     padding: 0.5rem 1rem;
     border-radius: 15px;
     text-align: center;
