@@ -1,7 +1,7 @@
 {
     "name": "Euphillia-Launcher",
     "preductname": "Euphillia Launcher",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Launcher Minecraft pour le serveur moddé Euphillia",
     "main": "src/app.js",
     "author": {
