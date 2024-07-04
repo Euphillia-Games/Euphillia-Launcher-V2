@@ -1,7 +1,7 @@
 {
     "name": "Euphillia-Launcher",
     "preductname": "Euphillia Launcher",
-    "version": "2.0.8",
+    "version": "2.0.9",
     "description": "Launcher Minecraft pour le serveur moddé Euphillia",
     "main": "src/app.js",
     "author": {
@@ -9,7 +9,7 @@
         "email": "contact@euphillia.fr",
         "url": "https://euphillia.fr"
     },
-    "url": "https://launchdata-er896.euphillia.fr/",
+    "url": "http://launchdata-er896.euphillia.fr/",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
