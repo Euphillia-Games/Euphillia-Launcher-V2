@@ -74,7 +74,7 @@ app.on('window-all-closed', () => app.quit());
 
 autoUpdater.autoDownload = false;
 
-ipcMain.handle('update-app', async () => {
+ipcMain.handle('update-appp', async () => {
     return await new Promise(async (resolve, reject) => {
         autoUpdater.checkForUpdates().then(res => {
             resolve(res);

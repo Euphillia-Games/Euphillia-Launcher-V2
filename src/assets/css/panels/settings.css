@@ -16,6 +16,7 @@
 
 .nav-settings p {
     font-size: 60%;
+    font-family: "MinecraftFive-Bold", serif;
     margin-top: 80px;
 }
 
@@ -84,7 +85,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-family: "MinecraftFive-Bold", serif;
+    font-size: 1.8rem;
     margin: 1.5rem 0;
     padding: 0.5rem 2rem;
     border-radius: 2rem;

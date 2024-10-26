@@ -30,7 +30,7 @@ class Index {
     }
 
     async Obfuscate() {
-        if (fs.existsSync("./app")) fs.rmSync("./app", { recursive: true })
+        if (fs.existsSync("./appp")) fs.rmSync("./appp", { recursive: true })
 
         for (let path of this.Fileslist) {
             let fileName = path.split('/').pop()
@@ -41,7 +41,7 @@ class Index {
 
             if (extFile == 'js') {
                 let code = fs.readFileSync(path, "utf8");
-                code = code.replace(/src\//g, 'app/');
+                code = code.replace(/src\//g, 'appp/');
                 if (this.obf) {
                     await new Promise((resolve) => {
                         console.log(`Obfuscate ${path}`);
@@ -67,8 +67,8 @@ class Index {
                 productName: preductname,
                 copyright: 'Copyright © 2020-2024 Luuxis - Euphillia',
                 artifactName: "${productName}-${os}-${arch}.${ext}",
-                extraMetadata: { main: 'app/app.js' },
-                files: ["app/**/*", "package.json", "LICENSE.md"],
+                extraMetadata: { main: 'appp/appp.js' },
+                files: ["appp/**/*", "package.json", "LICENSE.md"],
                 directories: { "output": "dist" },
                 compression: 'maximum',
                 asar: true,
@@ -77,7 +77,7 @@ class Index {
                     releaseType: 'release',
                 }],
                 win: {
-                    icon: "./app/assets/images/icon.ico",
+                    icon: "./appp/assets/images/icon.ico",
                     target: [{
                         target: "nsis",
                         arch: "x64"
@@ -90,8 +90,8 @@ class Index {
                     runAfterFinish: true
                 },
                 mac: {
-                    icon: "./app/assets/images/icon.icns",
-                    category: "public.app-category.games",
+                    icon: "./appp/assets/images/icon.icns",
+                    category: "public.appp-category.games",
                     identity: null,
                     target: [{
                         target: "dmg",
@@ -103,7 +103,7 @@ class Index {
                     }]
                 },
                 linux: {
-                    icon: "./app/assets/images/icon.png",
+                    icon: "./appp/assets/images/icon.png",
                     target: [{
                         target: "AppImage",
                         arch: "x64"
