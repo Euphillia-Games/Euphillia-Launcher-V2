@@ -30,9 +30,9 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Cuisson de l'Euphillium", "author": "Euphillia" },
-            { "message": "Invocation de la baleine", "author": "Euphillia" },
-            { "message": "Mise en route de Create", "author": "Euphillia" }
+            { "message": "Chargement", "author": "Euphillia" },
+            { "message": "Chargement", "author": "Euphillia" },
+            { "message": "Chargement", "author": "Euphillia" }
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
